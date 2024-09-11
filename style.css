@@ -35,13 +35,7 @@ body * {
     margin-top: 20px;
     animation: fadeIn 5s ease;
 }
-.intro-logo {
-    width: 50px; /* Ajuste o tamanho da seta conforme necessário */
-    margin-top: 20px;
-    opacity: 0; /* Começa invisível */
-    animation: moveDown 1s ease-in-out forwards;
-    animation-delay: 1.5s; /* Atraso para coincidir com a animação do texto */
-}
+
 
 @keyframes fadeIn {
         from { opacity: 0; }
