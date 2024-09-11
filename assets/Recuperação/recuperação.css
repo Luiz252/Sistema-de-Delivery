@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+ font-family: "Roboto", sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-recover {
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recover-card {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.recover-card > h1 {
+    color: #ffffff;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.recover-card > p {
+    color: #f0ffffde;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.btn-recover {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #ffffff;
+    background: #ff0602;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px 12px #00000052;
+}
+
+.btn-recover:hover {
+    background: #f06b6b;
+}
+
+.back-to-login p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.back-to-login {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.back-to-login p a {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.back-to-login p a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 950px) {
+    .recover-card {
+        width: 90%;
+    }
+}
