@@ -18,7 +18,7 @@ body * {
 .main-recover {
     width: 100vw;
     height: 100vh;
-    background: #201b2c;
+    background: #FFF9EA;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,19 +31,19 @@ body * {
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #2f2841;
+    background: #FEE8B6;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
 
 .recover-card > h1 {
-    color: #ffffff;
+    color: #000000;
     font-weight: 800;
     margin-bottom: 20px;
 }
 
 .recover-card > p {
-    color: #f0ffffde;
+    color: #000000;
     font-size: 14px;
     margin-bottom: 20px;
     text-align: center;
@@ -63,8 +63,8 @@ body * {
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: #514869;
-    color: #f0ffffde;
+    background: #FFFFFF;
+    color: #000000;
     font-size: 12pt;
     box-shadow: 0px 10px 40px #00000056;
     outline: none;
@@ -72,7 +72,7 @@ body * {
 }
 
 .textfield > label {
-    color: #f0ffffde;
+    color: #000000;
     margin-bottom: 10px;
 }
 
@@ -87,18 +87,18 @@ body * {
     font-weight: 800;
     letter-spacing: 3px;
     color: #ffffff;
-    background: #ff0602;
+    background: #E4A620;
     cursor: pointer;
     box-shadow: 0px 10px 40px 12px #00000052;
 }
 
 .btn-recover:hover {
-    background: #f06b6b;
+    background: #f3dd7a;
 }
 
 .back-to-login p {
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     font-weight: 500;
 }
 
@@ -109,7 +109,7 @@ body * {
 
 .back-to-login p a {
     font-size: 16px;
-    color: #ffffff;
+    color:#000000;
     font-weight: 700;
     text-decoration: none;
 }

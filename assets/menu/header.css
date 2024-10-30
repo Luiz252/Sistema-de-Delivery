@@ -1,0 +1,121 @@
+header {
+    width: 100%;
+    padding: 28px 8%;
+    position: sticky;
+    top: 0;
+    background-color: #FFF9EA;
+    z-index: 3;
+
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#nav_logo {
+    font-size: 24px;
+    color: #181818;
+}
+
+#nav_list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav_item a {
+    text-decoration: none;
+    color: #1d1d1dad;
+    font-weight: 600;
+}
+
+.nav_item.active a {
+    color: #1d1d1d;
+    border-bottom: 3px solid #ffe100;
+}
+
+#mobile_btn{
+    display: none;
+}
+
+#cart_btn {
+    background-color: #E4A620;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 50%;
+  }
+
+  #cart_btn :hover{
+    color: #f8d477;
+}
+
+  
+  .cart-tab {
+    display: none; /* Esconde a aba inicialmente */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    width: 700px;
+    text-align: center;
+  }
+  
+  #close_cart {
+    margin-top: 10px;
+    background-color: #ff6347;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #close_cart:hover {
+    background-color: #ff4c33;
+  }
+
+
+#mobile_menu {
+    display: none;
+}
+
+@media screen and (max-width: 1170px) {
+    #nav_list,
+    #navbar .btn-default {
+        display: none;
+    }
+
+    #mobile_btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #mobile_nav_list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+   
+    #mobile_nav_lista .nav-item {
+        list-style: none;
+        text-align: center;
+    }
+}

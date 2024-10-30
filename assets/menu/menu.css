@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+@import url('header.css');
+@import url('home.css');
+@import url('pratos.css');
+@import url('testmonials.css');
+@import url('footer.css');
+
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF9EA;
+    
+}
+section {
+  padding: 28px 8%;
+}
+
+.btn-default {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E4A620;
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.remove-icon {
+  cursor: pointer;
+  color: #1d1d1d; /* Cor de destaque para a lixeira */
+  font-size: 1.5rem;
+  margin-left: 10px; /* Espaço entre o botão e o ícone de lixeira */
+}
+
+.remove-icon:hover {
+  color: #ff4c33;
+}
+
+.btn-default:hover {
+  background-color: #f8d477;
+
+}
+
+
+.social-media-buttons {
+  display: flex;
+  gap: 18px;
+}
+
+.social-media-buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 40px;
+  background-color: #fff;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #1d1d1d;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow .3s ease;
+}
+
+.social-media-buttons a:hover {
+  box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: #e9a209;
+  font-size: 1.563rem;
+}
+
+.section-subtitle {
+  font-size: 2.1875rem;
+} 
